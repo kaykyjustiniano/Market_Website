@@ -1,17 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
+
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+
+    background-image: linear-gradient(62deg, #fefefe 0%, #eaeaea 100%);
+    
+    
+    
+}
+
 .centralizar{
     width: 950px;
     margin: 0 auto;
 }
 header{
     margin: 20px;
-    background-image: url(frutas-bg.jpg);
+    background-image: url(/imgs/frutas-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 400px;
@@ -56,7 +67,9 @@ li a{
     font-size: 1.4em;
     letter-spacing: 1px;
 }
-
+.hamburguerlogo{
+    display: none;
+}
 
 
 
@@ -72,7 +85,7 @@ li a{
     border-radius: 10px;
     gap: 10px;
     border: 2px solid rgba(0, 0, 0, 0.025);
-    box-shadow:  10px 10px 30px #bebebe, -10px -10px 30px #ffffff;
+    box-shadow:  10px 10px 30px #ababab, -10px -10px 30px #fefefe;
 }
 .card div{
     padding: 10px;
